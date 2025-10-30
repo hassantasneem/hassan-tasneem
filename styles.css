@@ -1,0 +1,134 @@
+body {
+    font-family: Courier, monospace;
+    line-height: 1.6;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.section h2{
+    color: white;
+}
+
+.header {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 50px 50px;   
+    justify-content: space-between;
+}
+
+
+.top-name{
+    flex: 0.5;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.nav-bar{
+    text-align: center;
+}
+
+.spacer{
+    flex: 0.5;
+}
+
+.top-name h1{
+    font-size: 20px;
+}
+
+.top-name h1 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.top-links ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.top-links ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-links ul a:hover{
+    color:gray;
+}
+
+    
+h2 {
+    color: black;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.project-card small {
+    color: gray;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+ul li::before {
+    content: '•';
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+p b, .skills-list b {
+    font-weight: 600;
+    color: white;
+}
+
+.education-entry {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #ced4da;
+}
+
+.education-entry p {
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+.education-entry p small{
+    color: gray;
+    font-style: italic;
+    font-size: 0.85em;
+}
