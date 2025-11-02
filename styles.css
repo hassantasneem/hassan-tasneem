@@ -34,6 +34,14 @@ body {
     text-align: left;
 }
 
+.top-name a{
+    transition: text-shadow 0.2s ease;
+}
+
+.top-name a:hover{
+    text-shadow: 1px 1px 10px rgb(255, 255, 255, 0.4);
+}
+
 .nav-bar {
     text-align: center;
 }
@@ -67,7 +75,7 @@ body {
 }
 
 .top-links ul a:hover {
-    color: gray;
+    color: pink;
 }
 
 
@@ -177,11 +185,12 @@ p b,
 }
 
 .entry-skills {
+    display: inline-flex;
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(109, 109, 109);
     color: white;
     padding: 5px 10px;
-    margin-right: 8px;
+    margin-right: 5ox;
     border-radius: 10px;
     display: inline-block;
     font-size: 0.8em;
